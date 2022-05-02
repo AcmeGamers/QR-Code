@@ -7,10 +7,7 @@
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -34,7 +31,7 @@ Normally I would use [Lightshot](https://app.prntscr.com/) or [Sharex](https://g
 
 ### Links
 
-- Solution URL: [Front-End Mentor](https://www.frontendmentor.io/solutions/responsive-react-advice-generator-HyIOQ93H9)
+- Solution URL: [Front-End Mentor](https://www.frontendmentor.io/solutions/qr-code-challenge-rJ5cwo3S5)
 - Live Site URL: [Github](https://github.com/AcmeGamers/QR-Code/)
 
 ## My process
