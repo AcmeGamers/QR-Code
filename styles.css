@@ -1,0 +1,79 @@
+:root {
+  /* Background */
+  --bg: #d5e1ef;
+  --card_bg: #fff;
+
+  /* Text */
+  --heading-color: #1f3251;
+  --font-color: #9a9da4;
+
+  /* widths */
+  --desktop-card-width: 275px;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--font-color);
+  font-family: "Outfit", system-ui;
+  margin: 0;
+}
+
+/* 
+- Font size (paragraph): 
+- Family: [Outfit](https://fonts.google.com/specimen/Outfit)
+- Weights: 400, 700 
+*/
+
+/* The Card */
+.card {
+  background: var(--card_bg);
+  border-radius: 20px;
+  box-shadow: 5px 5px 20px 0px #00000024;
+
+  padding: 20px 10px;
+  width: var(--desktop-card-width);
+}
+
+/* The Advice */
+
+h1,
+p {
+  width: calc(var(--desktop-card-width) - 20px);
+  text-align: center;
+}
+
+h1 {
+  color: var(--heading-color);
+  font-size: 20px;
+  font-weight: 800;
+}
+
+p {
+  font-size: 15px;
+}
+
+img {
+  width: 250px;
+  border-radius: 10px;
+}
+
+/* custom styling */
+
+.flex {
+  display: flex;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+}
+
+.hr-center {
+  align-items: center;
+}
+.vr-center {
+  justify-content: center;
+}
+
+.screen_height {
+  height: 100vh;
+}
